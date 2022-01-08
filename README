@@ -1,0 +1,4 @@
+A comparison of CPU-ran spatial distance histogram code compared with 5 kernels,
+    each with an additional optimization.
+To compile: nvcc sdh.cu -o SDH
+To run: ./SDH #num_points #bucket_width #block_size
